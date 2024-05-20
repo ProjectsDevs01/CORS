@@ -14,7 +14,7 @@ app.use(cors());
 // Proxy server
 app.use('/', (req, res) => {
     // Forward request to backend API
-    proxy.web(req, res, { target: 'http://98.130.5.88:8080' }); // Make sure to specify the correct target URL
+    proxy.web(req, res, { target: 'http://choolai.yashhomedecors.com:8888/' }); // Make sure to specify the correct target URL
 });
 
 // Error handling for proxy
